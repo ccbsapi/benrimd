@@ -184,6 +184,6 @@ const mdt=`
 //const input = require("fs").readFileSync("/dev/stdin", "utf8");
 
 
-const md = new MD(mdt);
+const md = new MD(' ');
 
-console.log(md.parse(input));
+console.log(md.parse(mdt));
